@@ -6,9 +6,10 @@ counter = 0
 loop do 
 counter = counter + 1
   puts phrase
-    if counter >= 7
+    if counter >= number_of_times.to_i
       break 
     end
+end
 end
 
 def times_iterator(number_of_times)
@@ -19,10 +20,9 @@ def times_iterator(number_of_times)
 end
 
 def while_iterator(number_of_times)
-  # code your solution here using the "while" keyword
-  # hint: user a counter to tell the while loop when to stop!
+ 
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+  while i < 7 
 end
 
 def until_iterator(number_of_times)
